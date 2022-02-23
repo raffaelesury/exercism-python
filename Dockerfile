@@ -25,3 +25,5 @@ WORKDIR /workspace
 # (*) With the --mount command we make the token available as "mytoken" in the default path
 # (*) required=true should stop the show if the secret was not passed when you called the build
 RUN --mount=type=secret,id=mytoken,required=true exercism configure --token=$(cat /run/secrets/mytoken) --workspace=/workspace
+
+ENTRYPOINT ["tail", "-f", "/dev/null"]

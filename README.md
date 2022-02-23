@@ -1,6 +1,6 @@
 # exercism-python-docker
 
-Build script for Windows. Creates a Docker image based on latest Python base image, updates, installs and configures Exercism CLI.
+Build script for Windows. Creates a Docker image based on latest Python base image, installs and configures Exercism CLI.
 
 ## Instructions
 

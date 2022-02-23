@@ -1,6 +1,9 @@
 # get latest python base image from dockerhub
 FROM python:latest
 
+# set the author
+LABEL org.opencontainers.image.authors="Raffaele Sury"
+
 # get package listing, upgrade dist, clean cache, delete list
 RUN apt-get update && \
     apt-get -y dist-upgrade && \

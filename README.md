@@ -1,9 +1,10 @@
 # exercism-python-docker
 
-Build script for Windows. Creates a Docker image based on latest Python base image, installs and configures Exercism CLI.
+Create and run a container to work on exercises in the Python track of [Exercism](https://exercism.org), on Windows.
 
 ## Instructions
 
-1) Install Docker.
+1) Install Docker and the WSL if not already installed.
 2) Add `token.txt` file with your Exercism CLI token to the root folder. 
-3) Run `.\build_image.bat` from Powershell
+3) Run `.\build_image.bat`
+4) Run `.\create_container.bat` 

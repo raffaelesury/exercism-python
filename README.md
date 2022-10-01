@@ -2,7 +2,7 @@
 
 Create and run a container to work on exercises in the Python track of [Exercism](https://exercism.org), on Windows.
 
-This was a self-learning project. Resources I found most useful: the [Docker reference](https://docs.docker.com/reference/) and [Python Speed](https://pythonspeed.com/). 
+Useful references: the [Docker reference](https://docs.docker.com/reference/) and [Python Speed](https://pythonspeed.com/). 
 
 ## Instructions
 
